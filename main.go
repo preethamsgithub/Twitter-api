@@ -10,10 +10,10 @@ import (
 )
 
 func main() {
-	consumerKey := "1506GsOdJeMze8WJycdGiSVq4"
-	consumerSecret := "eAGFwSP7xa1JnuuH5Vz7Fjii2ewCehkSO8j3aT1H31iSFezedq"
-	accessToken := "1761252971705139200-ZCxlSIOP5bgfkSTTV4VMBJEgEJuc5r"
-	accessTokenSecret := "IhYFG8w5Y3XJg6zsUBvuLaCKIzeQT1ScyBnNQPmAhqHf1"
+	consumerKey := "access key"
+	consumerSecret := "secret access key"
+	accessToken := "access token"
+	accessTokenSecret := "secret access token"
 
 	if consumerKey == "" || consumerSecret == "" || accessToken == "" || accessTokenSecret == "" {
 		log.Fatal("Twitter API credentials are not set in environment variables.")
